@@ -5,15 +5,33 @@
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
    <dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-java</artifactId>
-    <version>4.3.0</version>
-</dependency>
-  <dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>7.5</version>
-    <scope>test</scope>
-</dependency>
+    	<groupId>org.seleniumhq.selenium</groupId>
+    	<artifactId>selenium-java</artifactId>
+    	<version>4.3.0</version>
+	</dependency>
+ 	<dependency>
+    	<groupId>org.testng</groupId>
+    	<artifactId>testng</artifactId>
+    	<version>7.5</version>
+    	<scope>test</scope>
+	</dependency>
+	<dependency>
+    	<groupId>org.uncommons</groupId>
+    	<artifactId>reportng</artifactId>
+    	<version>1.1.4</version>
+    	<scope>test</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/velocity/velocity-dep -->
+	<dependency>
+    	<groupId>velocity</groupId>
+   		 <artifactId>velocity-dep</artifactId>
+    	<version>1.4</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
+	<dependency>
+    	<groupId>com.google.inject</groupId>
+    	<artifactId>guice</artifactId>
+   		 <version>3.0</version>
+	</dependency>
   </dependencies>
 </project>

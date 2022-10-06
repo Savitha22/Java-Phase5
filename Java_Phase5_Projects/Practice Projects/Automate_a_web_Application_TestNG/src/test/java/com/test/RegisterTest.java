@@ -24,7 +24,7 @@ public class RegisterTest {
 		  driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 	  }
 	 
-	 /* @Test(priority = 1)
+	 @Test(priority = 1)
 	  public void register() {
 	      driver.findElement(By.id("nav-link-accountList")).click();
 	      driver.findElement(By.id("createAccountSubmit")).click();
@@ -34,7 +34,7 @@ public class RegisterTest {
 	      driver.findElement(By.id("ap_password_check")).sendKeys("Savitha2@");
 	      driver.findElement(By.id("continue")).click();
 		  }
-	  */
+	  
 	  
 	  @Test(priority = 2)
 	  public void login(){
